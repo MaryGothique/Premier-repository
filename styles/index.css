@@ -1,0 +1,30 @@
+@import "main.css";
+
+/*!!!!!!!!!!Banner*/
+
+.banner{
+    height: calc(100vh-85.5);
+    background-image: url(../img/banner-hero.jpeg);
+    background-repeat: no-repeat;
+    height: calc(100vh - 85.5px);
+    width: 100%;
+    background-size: cover;  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner-header{
+   padding: 2em;
+   margin-right: 10%; 
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: var(--border-radius);
+   max-width: 35%;
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   }
+
+.banner-header separator{
+    border-top: 1px solid var(--secondary);
+    margin-bottom: 10px;
+
+}
